@@ -212,7 +212,7 @@ header.shadow {
   min-height: 900px;
   display: flex;
   align-items: center;
-  background: url("Photos/new.jpg");
+  background: url("new.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center left;
