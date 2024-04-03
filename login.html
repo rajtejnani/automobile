@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Register</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+
+    <div class="video">
+        <video autoplay loop src="Video/Untitled video.mp4"></video>
+    </div>
+    
+    <div class="wrapper">
+        <!-- <span class="icon-close"><i class='bx bx-x'></i></span> -->
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-envelope'></i></span>
+                    <input type="email" required>
+                    <label for="email">Email</label>
+
+                </div>
+                <div class="input-box">
+                    <span class="icon"> <i class='bx bxs-lock'></i></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">login</button>
+                <div class="login-register">
+                    <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <!-- Registration Form -->
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-user'></i></i></span>
+                    <input type="text" required>
+                    <label for="email">Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-envelope'></i></span>
+                    <input type="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"> <i class='bx bxs-lock'></i></span>
+                    <input type="password" id="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"> <i class='bx bxs-lock'></i></span>
+                    <input type="password" id="cnfrm-password" required>
+                    <label>Confirm Password</label>
+                    <p id="message"></p>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox" required>I agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="btn" onclick="checkPassword()">Register</button>
+                <div class="login-register">
+                    <p>Already have an account?<a href="#" class="login-link">Login</a></p>
+                </div>
+
+                <script src="login.js"></script>
+</body>
+
+</html>

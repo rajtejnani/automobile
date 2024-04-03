@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Auto Spare Part1",
+        "price": 200,
+        "image": "Photos/image1.png"
+    },
+    {
+        "id": 2,
+        "name": "Auto Spare Part2",
+        "price": 200,
+        "image": "Photos/image2.png"
+    },
+    {
+        "id": 3,
+        "name": "Auto Spare Part3",
+        "price": 200,
+        "image": "Photos/image3.png"
+    },
+    {
+        "id": 4,
+        "name": "Auto Spare Part4",
+        "price": 200,
+        "image": "Photos/image4.png"
+    },
+    {
+        "id": 5,
+        "name": "Auto Spare Part5",
+        "price": 200,
+        "image": "Photos/image5.png"
+    },
+    {
+        "id": 6,
+        "name": "Auto Spare Part6",
+        "price": 200,
+        "image": "Photos/image6.png"
+    }
+
+]
